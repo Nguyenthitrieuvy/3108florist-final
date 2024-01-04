@@ -567,42 +567,45 @@ p {
         border-radius: 4px;
         display: inline-block;
     }
+    .headline-1 img {
+        top: 12px;
+    }
     .feeback .card-feedback img {
         height: 300px;
     }
-    .headline-1{
+    .headline-1 {
         margin-bottom: 20px;
     }
-    .headline-1 h2{
+    .headline-1 h2 {
         padding-top: 20px;
     }
-    .product.background{
+    .product.background {
         margin-top: 0;
         padding-bottom: 0;
     }
-    .feeback{
+    .feeback {
         margin-top: 0;
     }
-    .news .card-news h3{
+    .news .card-news h3 {
         font-size: 16px;
     }
-    .news .card-news p{
+    .news .card-news p {
         font-size: 12px;
     }
-    .news .list-new{
+    .news .list-new {
         margin-top: 20px;
     }
-    .news .list-new h3{
+    .news .list-new h3 {
         font-size: 16px;
     }
-    .footer .promotion{
+    .footer .promotion {
         margin-top: 25px;
     }
-    .footer .content h3{
+    .footer .content h3 {
         margin-top: 16px;
     }
-    
-    .footer .content h3::after{
+
+    .footer .content h3::after {
         margin-bottom: 16px;
     }
 }
@@ -620,9 +623,11 @@ p {
         padding: 6px 0;
         font-size: 12px;
     }
-
     .card-product .order::after {
         width: 80%;
+    }
+    .feeback .card-feedback img {
+        height: 250px;
     }
 }
 @media (max-width: 400px) {
