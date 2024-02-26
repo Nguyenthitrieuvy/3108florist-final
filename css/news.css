@@ -1,0 +1,29 @@
+.news .top .row {
+    background-color: #fff8f8;
+    padding: 30px 25px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news .top h4{
+    font-size: 16px;
+}
+.news .top h1{
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 32px;
+}
+.news .top p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.news .top a{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+}

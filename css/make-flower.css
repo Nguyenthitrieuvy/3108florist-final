@@ -1,0 +1,83 @@
+
+.flower {
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.flower h2 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.flower h2:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: left;
+    margin-top: 10px;
+}
+.flower img {
+    position: absolute;
+    top: 24px;
+    width: 16px;
+    right: -18px;
+    animation: flower 2s infinite alternate;
+}
+
+.make-flower .product-flower{
+    border-right: 1px solid #d2d2d2;
+    padding-right: 20px;
+}
+.make-flower .flower-right .flower-choose .flower-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #d2d2d2;
+    padding-bottom: 15px;
+}
+.make-flower .flower-right .flower-choose img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.make-flower .flower-right .flower-choose .flower-card h3{
+    font-size: 18px;
+
+}
+
+.make-flower .popup-order .form input{
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border-radius: 50px;
+    border: 1px solid rgb(208, 208, 208);
+}
+.make-flower .popup-order .form button{
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0 30px 0;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    transition: 0.5s;
+}
+.make-flower .popup-order .form button:hover{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+}
+@media(max-width:991px){
+    .make-flower .product-flower{
+        border-right: none;
+        padding-right: 0;
+    }
+}

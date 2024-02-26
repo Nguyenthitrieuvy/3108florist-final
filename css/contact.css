@@ -1,0 +1,56 @@
+.contact{
+    margin-top: 30px;
+}
+.contact .left{
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 4px;
+}
+.contact .left .box-input p{
+    margin: 8px 0;
+    font-weight: 500;
+}
+.contact .left .box-input input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid #d7d7d7;
+}
+.contact .left .box-input textarea{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #d7d7d7;
+}
+.contact .left button{
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    width: 96%;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.contact .right h1{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.contact .right ul li i{
+    color: var(--primary-color);
+    margin-right: 8px;
+    
+}
+.contact .right ul{
+    margin: 10px 0 30px 0;
+    list-style: none;
+}
+.contact .right ul li{
+    margin-top: 8px;
+}
+.contact .right ul li span{
+    font-weight: 500;
+}
+.contact .right iframe{
+    border-radius: 4px;
+}

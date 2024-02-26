@@ -1,0 +1,28 @@
+.introduce {
+    margin-top: 30px;
+}
+.introduce .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduce h3 {
+    color: var(--primary-color);
+}
+.introduce ul {
+    list-style: none;
+}
+.introduce ul li {
+    margin-top: 10px;
+}
+.introduce p {
+    margin-top: 10px;
+}
+.introduce a {
+    background-color: var(--primary-color);
+    padding: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: #fff;
+}

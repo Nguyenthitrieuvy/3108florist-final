@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/product-detail.css" />
+    </head>
+    <body>
+        <div id="header"></div>
+
+        <div class="product-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="thumb" src="image/product/chauhoa_1.jpeg" alt="" />
+                        <div class="list-image">
+                            <img src="image/product/chauhoa_2.jpeg" alt="" />
+                            <img src="image/product/chauhoa_3.jpeg" alt="" />
+                            <img src="image/product/chauhoa_4.jpeg" alt="" />
+                            <img src="image/product/chauhoa_2.jpeg" alt="" />
+                            <img src="image/product/chauhoa_3.jpeg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>HOA TƯƠI GIÁ RẺ - CHẤT LƯỢNG MỖI NGÀY</h1>
+                        <div class="include">
+                            <h3>Bó hoa bao gồm</h3>
+                            <ul>
+                                <li>+ 10 cành hồng</li>
+                                <li>+ Hoa thêm</li>
+                                <li>+ Lá phụ kiện</li>
+                            </ul>
+                        </div>
+                        <div class="desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolores quae, recusandae impedit dolorem eveniet aliquid
+                            maioress
+                        </div>
+                        <p class="price"><span>350.000 đ</span> 300.000 đ</p>
+                        <div class="quantity">
+                            <span>Số lượng: </span>
+                            <div class="number">
+                                <i class="fa-solid fa-minus"></i>
+                                <input type="text" value="1" />
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="list-button">
+                            <button><i class="fa-solid fa-cart-shopping"></i> THÊM VÀO GIỎ HÀNG</button>
+                            <button id="quick-order"><i class="fa-solid fa-cart-plus"></i> ĐẶT HÀNG NGAY</button>
+                        </div>
+                        <div class="ship">
+                            <h3>Ưu đãi đặc biệt</h3>
+                            <div class="content">
+                                <i class="fa-solid fa-car-side"></i>
+                                <p>Miễn phí giao hàng toàn quốc cho đơn hàng từ 500 ngàn đồng trở lên</p>
+                            </div>
+                            <div class="content">
+                                <i class="fa-solid fa-repeat"></i>
+                                <p>Đổi trả trong ngày nếu sản phẩm bị lỗi, sản phẩm không đúng.</p>
+                            </div>
+                            <div class="content">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Nếu phát hiện hàng giả, Quý khách trả hàng và nhận thêm 200% giá trị.</p>
+                            </div>
+                            <div class="content">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>Hotline tư vấn 24/07 0937 968 678</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-order">
+            <div class="top">
+                <h3>ĐẶT HÀNG NHANH</h3>
+                <i id="popup-delete" class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <td>Ảnh</td>
+                        <td>Thông tin sản phẩm</td>
+                        <td>Giá</td>
+                        <td>Số lượng</td>
+                        <td>Thành tiền</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/product/bohoa_1.jpeg" alt=""></td>
+                        <td>Bó hoa hồng xanh</td>
+                        <td><span>500.000đ</span></td>
+                        <td>
+                            <div class="number">
+                                <i class="fa-solid fa-plus"></i>
+                                <input type="text" value="1" />
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </td>
+                        <td>500.000đ</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form">
+                <div class="title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h3>THÔNG TIN ĐẶT HÀNG</h3>
+                </div>
+                <input type="text" placeholder="Họ và tên (*)">
+                <input type="text" placeholder="Điện thoại (*)">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Địa chỉ">
+                <input type="text" placeholder="Ghi chú">
+                <button>ĐẶT HÀNG</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="headline-1">
+                <h2>NHỮNG MẪU HOA KHÁC LIÊN QUAN<img src="image/logo/hoa copy.png" alt="" /></h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-2">
+                        <a href="" class="card-product">
+                            <div class="thumb">
+                                <img src="image/product/bohoa_1.jpeg" alt="" />
+                            </div>
+                            <h3>Bó hoa hồng xanh nhập</h3>
+                            <p>1.400.000VND</p>
+                            <div class="order">
+                                <span>Đặt Hàng <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <a href="" class="card-product">
+                            <div class="thumb">
+                                <img src="image/product/bohoa_2.jpeg" alt="" />
+                            </div>
+                            <h3>Bó hoa mẫu đơn ngoại</h3>
+                            <p>1.100.000VND</p>
+                            <div class="order">
+                                <span>Đặt Hàng <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <a href="" class="card-product">
+                            <div class="thumb">
+                                <img src="image/product/bohoa_3.jpeg" alt="" />
+                            </div>
+                            <h3>Bó hoa hồng ngoại</h3>
+                            <p>1.200.000VND</p>
+                            <div class="order">
+                                <span>Đặt Hàng <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <a href="" class="card-product">
+                            <div class="thumb">
+                                <img src="image/product/bohoa_4.jpeg" alt="" />
+                            </div>
+                            <h3>Bó hoa hoạ mi</h3>
+                            <p>700.000VND</p>
+                            <div class="order">
+                                <span>Đặt Hàng <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <a href="" class="card-product">
+                            <div class="thumb">
+                                <img src="image/product/bohoa_5.jpg" alt="" />
+                            </div>
+                            <h3>Bó hoa hồng vàng</h3>
+                            <p>700.000VND</p>
+                            <div class="order">
+                                <span>Đặt Hàng <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <a href="" class="card-product">
+                            <div class="thumb">
+                                <img src="image/product/bohoa_6.jpg" alt="" />
+                            </div>
+                            <h3>Bó hoa hồng cam</h3>
+                            <p>800.000VND</p>
+                            <div class="order">
+                                <span>Đặt Hàng <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/style.js"></script>
+        <script src="js/product-detail.js"></script>
+    </body>
+</html>
