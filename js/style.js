@@ -20,8 +20,10 @@ header.innerHTML = `<div class="header">
 
         <div class="hotline">
             <div class="phone">
+                <a href="tel:0937968678">
                 <img src="image/logo/Vonghoa.jpeg" alt="" />
                 <i class="fa-solid fa-phone-volume"></i>
+                </a>
             </div>
             <div class="content">
                 <h4>0937 968 678</h4>
@@ -32,9 +34,9 @@ header.innerHTML = `<div class="header">
             <a href="make-flower.html">Gói hoa theo yêu cầu</a>
         </div>
         <div class="social">
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/3108Florist?locale=vi_VN"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/3108florist?igsh=YjlxMWhwM2RpY2to"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@3108florist?_t=8nBMEzHCnNX&_r=1"><i class="fa-brands fa-tiktok"></i></a>
         </div>
         <div class="cart"><i class="fa-solid fa-cart-shopping"></i><span>0</span></div>
     </div>
@@ -75,17 +77,17 @@ footer.innerHTML = `<div class="footer">
                     cho bạn.
                 </p>
                 <div class="social">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.facebook.com/3108Florist?locale=vi_VN"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/3108florist?igsh=YjlxMWhwM2RpY2to"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@3108florist?_t=8nBMEzHCnNX&_r=1"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>
             <div class="col-lg-3">
                 <h3>THÔNG TIN LIÊN HỆ</h3>
                 <ul>
-                    <li><a href="">- Địa chỉ: 153 Hồ Văn Huê - P9 - Phú Nhuận</a></li>
-                    <li><a href="">- Điện thoại: 0937 968 678</a></li>
-                    <li><a href="">- Facebook: 3108Florist</a></li>
+                    <li><a href="https://www.google.com/maps/dir//153+H%E1%BB%93+V%C4%83n+Hu%C3%AA+Ph%C6%B0%E1%BB%9Dng+9+Ph%C3%BA+Nhu%E1%BA%ADn+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.8058035,106.6782717,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x317528d8c44ffee5:0xbad2bee7ee0a2fca">- Địa chỉ: 153 Hồ Văn Huê - P9 - Phú Nhuận</a></li>
+                    <li><a href="tel:0937968678">- Điện thoại: 0937 968 678</a></li>
+                    <li><a href="https://www.facebook.com/3108Florist?locale=vi_VN">- Facebook: 3108Florist</a></li>
                     <li>- Giờ mở cửa: 7:00AM - 8:00PM</li>
                 </ul>
             </div>
@@ -124,13 +126,13 @@ footer.innerHTML = `<div class="footer">
 </div>
 
 <div class="icon-call">
-<a href="">
+<a href="tel:0937968678">
     <img src="image/icon/phone.png" alt="" />
 </a>
-<a href="">
+<a href="https://www.facebook.com/3108Florist?locale=vi_VN"">
     <img src="image/icon/mes.png" alt="" />
 </a>
-<a href="">
+<a href="http://zalo.me/0937968678">
     <img src="image/icon/zalo-c.png" alt="" />
 </a>
 <a href="javascript:;" id="backToTopBtn">
